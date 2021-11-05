@@ -8,6 +8,6 @@ int main(void)
     fgets(arr, 10,pf);
     puts(arr);
     fclose(pf);
-    printf();
+    // printf();
     return 0;
 }
