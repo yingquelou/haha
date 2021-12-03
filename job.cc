@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 int main(void)
 {
     FILE *fp = fopen("../test.txt", "w");
@@ -9,6 +10,6 @@ int main(void)
         else
             fprintf(fp, "%d是偶数\n", i);
     }
-
+cout<<"sfs"<<endl;
     return 0;
 }
